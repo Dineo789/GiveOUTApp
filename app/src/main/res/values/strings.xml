@@ -4,4 +4,5 @@
     <string name="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi massa tellus, tempus sed eros id, faucibus elementum nisl. Nullam ut nisl eget neque euismod faucibus vel eget odio. Fusce blandit ligula velit, et sagittis ligula ornare aliquam. Donec dignissim lacus orci, non porttitor orci facilisis sit amet. Phasellus tempus enim ante, eu eleifend ligula facilisis vitae. Curabitur porta eu purus a tempor. Donec eget lacus placerat, viverra velit eget, dictum nisi. Curabitur pretium risus quis velit commodo suscipit.
     Curabitur sodales nisl eu nisi fermentum pretium. Suspendisse potenti.</string>
     <string name="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi massa tellus, tempus sed eros id, faucibus elementum nisl.</string>
+    <string name="title_activity_location">LocationActivity</string>
 </resources>
