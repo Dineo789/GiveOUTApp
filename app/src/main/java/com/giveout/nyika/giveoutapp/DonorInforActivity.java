@@ -12,11 +12,11 @@ public class DonorInforActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.donor_information);
-        Button button =  findViewById(R.id.donateInformationBtn);
+        Button button = findViewById(R.id.donateInformationBtn);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(DonorInforActivity.this,CentresActivity.class));
+                startActivity(new Intent(DonorInforActivity.this, LocationActivity.class));
             }
         });
     }

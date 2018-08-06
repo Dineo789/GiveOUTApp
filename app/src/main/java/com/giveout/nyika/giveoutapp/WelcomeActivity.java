@@ -13,7 +13,6 @@ public class WelcomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.welcome_screen);
         Button donorButton = findViewById(R.id.donorBtn);
-        Button center = findViewById(R.id.centersBtn);
        donorButton.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View view) {

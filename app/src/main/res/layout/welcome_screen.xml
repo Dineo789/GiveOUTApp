@@ -18,24 +18,14 @@
             android:src="@drawable/nyika_logo"
             app:srcCompat="@drawable/nyika_logo" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
             <Button
                 android:id="@+id/donorBtn"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:text="donar" />
+                android:layout_margin="16dp"
+                android:text="I am a donor" />
 
-            <Button
-                android:id="@+id/centersBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:text="center" />
-        </LinearLayout>
     </LinearLayout>
 </ScrollView>

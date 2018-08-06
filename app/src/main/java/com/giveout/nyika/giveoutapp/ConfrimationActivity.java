@@ -6,17 +6,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class DonateOptionsActivity extends AppCompatActivity {
+public class ConfrimationActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_donate_options);
-        Button button = findViewById(R.id.done);
+        setContentView(R.layout.activity_confrimation);
+        Button button = findViewById(R.id.homeback);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(DonateOptionsActivity.this, ConfrimationActivity.class));
+                startActivity(new Intent(ConfrimationActivity.this, HomeActivity.class));
+
             }
         });
     }
