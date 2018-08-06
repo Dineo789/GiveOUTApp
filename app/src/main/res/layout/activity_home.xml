@@ -35,7 +35,8 @@
 
 
     <Button
-        android:layout_width="@dimen/button_size"
+        android:id="@+id/letsDonate"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:background="@color/colorPrimary"

@@ -6,18 +6,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class HomeActivity extends AppCompatActivity {
+public class DonorInforActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
-        Button button = findViewById(R.id.letsDonate);
+        setContentView(R.layout.donor_information);
+        Button button = findViewById(R.id.donateInformationBtn);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(HomeActivity.this,DonorInforActivity.class));
-
+                startActivity(new Intent(DonorInforActivity.this, LocationActivity.class));
             }
         });
     }
